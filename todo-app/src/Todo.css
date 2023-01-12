@@ -1,0 +1,28 @@
+.app__todos {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.todo__list {
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px !important;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    background-color: wheat
+}
+
+.todo__list:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    transform: scale(1.01);
+}
+
+.todo__buttons {
+    margin-left: 50%;
+    
+}
+
+.todo__buttons > button {
+    position: relative;
+    z-index: 100 !important;
+}
